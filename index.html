@@ -17,41 +17,49 @@
     </head>
     <body>
         <h1>Práctica 10</h1>
+        <!-- Creación del formulario en que se envial correo electronico. -->
         <form action="https://formsubmit.co/joseantoniosegarr@gmail.com" method="POST">
             <!-- Datos del formulario -->
              <fieldset>
                 <legend>Datos Personales</legend>
-
+                <!-- Info de Nombre -->
                 <label for="nombre">Nombre:</label>
                 <input type="text" id="nombre" name="nombre">
                 <br>
+                <!-- Info de Apellidos -->
                 <label for="apellidos">Apellidos:</label>
                 <input type="text" id="apellidos" name="apellidos">
                 <br>
+                <!-- Info de Telefono -->
                 <label for="telefono">Teléfono:</label>
                 <input type="tel" id="telefono" name="telefono">
                 <br>
+                <!-- Info de Direccion -->
                 <label for="direccion">Direccion:</label>
                 <input type="text" id="direccion" name="direccion">
                 <br>
+                <!-- Info de Email -->
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email">
              </fieldset>
 
+            <!-- Datos de seleccion de curso -->
              <fieldset>
                 <legend>Selecicionar curso</legend>
-
+                <!-- Curso Fronted -->
                 <input type="checkbox" id="cursoFrontend" name="curso" value="Frontend">
                 <label for="cursoFrontend">Curso Front End</label>
                 <br>
+                <!-- Curso Java -->
                 <input type="checkbox" id="cursoJava" name="curso" value="Java">
                 <label for="cursoJava">Curso de Java</label>
                 <br>
+                <!-- Curso FullStack -->
                 <input type="checkbox" id="cursoFullStack" name="curso" value="FullStack">
                 <label for="cursoFullStack">Curso Full Stack</label>
              </fieldset>
-
              <br>
+             <!-- Enviar formulario -->
              <input type="submit" value="Enviar">
         </form>
     </body>
